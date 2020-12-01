@@ -5,21 +5,27 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 // Max line char array length
 #define MAXCHAR 10
 
-int main() {
+int main(int argc, char **argv) {
+	// Check for file input, error if none
+	if (argc != 2) {
+		fprintf(stderr, "usage: %s <file>\n",argv[0]);
+		exit(1);
+	}
+
 	// Setup file
 	FILE *fp;
 	char str[MAXCHAR];
-	// Set file name as desired
-	char* filename = "in.txt";
+	char* filename = argv[1];
 
 	// Open file as read and check exists
 	fp = fopen(filename, "r");
 	if (fp == NULL){
-		printf("Could not open file %s",filename);
+		printf("Could not open file %s\n",filename);
 		return 1;
 	}
 	// Count lines (needed for array sizes
