@@ -6,6 +6,12 @@ All solutions tested on Ubuntu 20.04 but should run most systems
 
 Solutions are for the 2020 Advent of Code: https://adventofcode.com/
 
+## Structure of Repo
+
+All directories have a C file in format adventX.c and an input (in.txt).
+
+Directory numbers correspond to a challenge number, e.g. 5 is Day 2, Part 1
+
 ## Build Solutions
 
 To build a solution using gcc run ``gcc challenge.c -o challenge``, then run using ``./challenge args``
