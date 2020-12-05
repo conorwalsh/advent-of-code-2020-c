@@ -10,7 +10,7 @@ Solutions are for the 2020 Advent of Code: https://adventofcode.com/
 
 All directories have a C file in format adventX.c and an input (in.txt).
 
-Directory numbers correspond to a challenge number, e.g. 5 is Day 3, Part 1
+Directory numbers correspond to a challenge number, e.g. 05 is Day 3, Part 1
 
 ## Build Solutions
 

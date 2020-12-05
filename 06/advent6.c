@@ -1,5 +1,5 @@
 /*
- * Advent of Code challenge 5
+ * Advent of Code challenge 6
  *
  * Conor Walsh 2020
  */
